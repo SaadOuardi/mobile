@@ -1,0 +1,118 @@
+/* Bebas Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Oswald */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root{
+    --primary--font-family: "Bebas Neue", sans-serif;
+    --secondary--font-family: "Oswald", sans-serif;
+}
+
+*{
+    padding: 0;
+    gap: 0;
+    font-family: var(--primary--font-family);
+}
+
+body{
+    background-color: rebeccapurple;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phone-protector{
+    background-color: rgb(245, 153, 153);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    height: fit-content;
+    border-radius: 24px;
+    padding: 10px;
+}
+.phone-screen{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 405px;
+    height: fit-content;
+    border-radius: 24px;
+    padding: 5px 10px;
+}
+
+.myphone{
+    height: fit-content;
+    width: 400px;
+    background: rgb(0,51,255);
+background: linear-gradient(0deg, rgba(0,51,255,1) 13%, rgba(182,66,172,1) 48%, rgba(255,0,0,1) 100%);
+    border-radius: 24px;
+}
+
+.full-date, .full-time{
+    color:white;
+
+}
+.main-camera{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cameras__container{
+    background-color: black;
+    height: 25px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0 0 20px 20px;
+}
+
+.camera{
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.apps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.apps img{
+    height: 80px;
+    width: 80px;
+    border-radius: 9px;
+    transition: all 0.3s ease;
+}
+.apps img:hover{
+    transform: scale(0.95);
+}
+
+.classic-apps{
+    padding: 10px 0;
+}
+.classic-apps__container{
+    background-color: rgb(41, 49, 91);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    gap: 10px;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
